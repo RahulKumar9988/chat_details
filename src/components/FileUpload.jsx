@@ -16,9 +16,9 @@ const FileUpload = ({ onFileUpload }) => {
   const { getRootProps, getInputProps } = useDropzone({ onDrop, accept: ".txt" });
 
   return (
-    <div {...getRootProps()} className="dropzone">
+    <div {...getRootProps()} className="">
       <input {...getInputProps()} />
-      <p>Drag & drop a WhatsApp chat export here, or click to upload</p>
+      <p className="font-semibold text-xl">Drag & drop a WhatsApp chat export here, or click to upload</p>
     </div>
   );
 };

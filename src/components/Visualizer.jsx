@@ -29,18 +29,45 @@ const Visualizer = ({ frequencyData }) => {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false, // Chart adapts to container height
     plugins: {
       legend: {
         position: "top",
+        labels: {
+          font: {
+            size: 14, // Adjust font size
+          },
+        },
       },
       title: {
         display: true,
         text: "Message Frequency Analysis",
+        font: {
+          size: 18,
+        },
+      },
+    },
+    scales: {
+      x: {
+        ticks: {
+          autoSkip: true,
+          maxRotation: 45,
+          minRotation: 0,
+        },
+      },
+      y: {
+        beginAtZero: true,
       },
     },
   };
 
-  return <Bar data={data} options={options} />;
+  return (
+    <div className="w-full max-w-4xl mx-auto p-4">
+      <div className="h-[60vh] bg-white shadow-lg rounded-lg p-4">
+        <Bar data={data} options={options} />
+      </div>
+    </div>
+  );
 };
 
 export default Visualizer;
