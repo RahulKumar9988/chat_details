@@ -16,8 +16,8 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col items-center  justify-center p-6">
       <header className="mb-8">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-100 text-center">
-          MuseYard Chat Analyzer
+        <h1 className="text-3xl md:text-6xl font-extrabold text-gray-100 text-center">
+          Chat Analyzer....
         </h1>
         <p className="text-gray-100 text-center text-lg mt-2">
           Upload your WhatsApp chat export and explore insights!
