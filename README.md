@@ -125,5 +125,5 @@ src/
 
 ---
 
-## created by rahul kuamr 
+## created by rahul kumar
 
