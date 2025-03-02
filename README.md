@@ -1,6 +1,6 @@
-# MuseYard Chat Analyzer
+## Chat Analyzer
 
-MuseYard Chat Analyzer is a web application that allows users to upload their WhatsApp chat exports in `.txt` format. The app processes the uploaded file to extract meaningful insights, identify patterns, and provide a visual representation of the data.
+ Chat Analyzer is a web application that allows users to upload their WhatsApp chat exports in `.txt` format. The app processes the uploaded file to extract meaningful insights, identify patterns, and provide a visual representation of the data.
 
 ---
 
